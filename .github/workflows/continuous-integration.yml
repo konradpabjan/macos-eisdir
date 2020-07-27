@@ -24,7 +24,7 @@ jobs:
         run: cargo test --verbose
 
       - name: Upload the build artifact
-        uses: actions/upload-artifact@v1
+        uses: konradpabjan/upload-artifact@main
         with:
           name: build
           path: target/debug
