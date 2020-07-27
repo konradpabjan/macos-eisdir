@@ -28,4 +28,5 @@ jobs:
         with:
           name: build
           path: target/debug
+          follow-symbolic-links: false
 
