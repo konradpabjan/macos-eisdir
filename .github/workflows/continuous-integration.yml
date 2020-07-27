@@ -24,7 +24,7 @@ jobs:
         run: cargo test --verbose
 
       - name: Upload the build artifact
-        uses: konradpabjan/upload-artifact@main
+        uses: actions/upload-artifact@symlink-fixes
         with:
           name: build
           path: target/debug
